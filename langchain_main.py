@@ -19,7 +19,7 @@ load_dotenv()
 def get_few_shots_db_chain():
     if "GOOGLE_API_KEY" not in os.environ:
         os.environ["GOOGLE_API_KEY"] = getpass.getpass(
-            "AIzaSyA6c-iKo595l1u2lDaxofUntAd44zViYoM")
+            "AIzaSyA27S0zKnqOnxlwCCgr_MLm1W86w_f7iOc")
     llm = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.2)
 
     db_user = 'root'
