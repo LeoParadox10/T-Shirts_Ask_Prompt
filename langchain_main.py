@@ -23,7 +23,7 @@ def get_few_shots_db_chain():
     llm = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.2)
 
     db_user = 'root'
-    db_password = 'leoparadox10'
+    db_password = '#LeoParadox10'
     db_host = 'localhost'
     db_name = 'atliq_tshirts'
 
